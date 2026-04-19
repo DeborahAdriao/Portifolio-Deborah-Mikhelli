@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Deborah e Mikhelli</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,26 +21,37 @@
             <a href="contato.html">Contato</a>
         </nav>
     </header>
-    <main>
-        <section class="intro">
-            <h1>Bem-vindo ao nosso Portfólio</h1>
-            <p>Somos Deborah e Mikhelli, apaixonados por tecnologia e inovação. Este portfólio é uma coleção dos nossos projetos, habilidades e experiências. Explore para conhecer mais sobre nós!</p>
 
-            <div class= "row mt-4">
-                <div class="col-md-6">
-                    <img src="./imgs/deborah.jpeg" alt="Foto de Deborah sorrindo" class="img-fluid">
-                    <h3>Deborah Adrião Cavalcanti Silva</h3>
-                    <p>Estudante de Sistemas de Informação e entusiasta em Inteligência Artificial. Apaixonada por unir programação web (Front-End) e estratégias de marketing para criar experiências digitais completas e conectadas com o público.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="./imgs/mikhelli.jpeg" alt="Foto de Mikhelli sorrindo" class="img-fluid">
-                    <h3>Raiany Mikhelli da Silva</h3>
-                    <p>Desenvolvedora de Software entusiasta em Java e Estruturas de Dados. Apaixonada por unir o rigor técnico da programação com a visão estratégica de Gestão de Projetos.</p>
-                </div>
+    <main class="container my-5">
+        
+        <section class="text-center mb-5">
+            <h1 class="mb-3">Bem-vindo ao nosso Portfólio</h1>
+            <p>Somos Deborah e Mikhelli, apaixonados por tecnologia e inovação. Este portfólio é uma coleção dos nossos projetos, habilidades e experiências. Explore para conhecer mais sobre nós!</p>
+            
+            <a href="sobre.html" class="btn btn-personalizado mt-3 d-inline-flex align-items-center gap-2">
+                Sobre Nós
+                <span class="material-symbols-outlined icone-seta">double_arrow</span>
+            </a>
+        </section>
+
+        <section class="row mt-4">
+            
+            <div class="col-md-6 text-center mb-4">
+                <img src="./imgs/deborah.jpeg" alt="Foto de Deborah sorrindo" class="img-fluid foto-perfil">
+                <h2 class="mt-3 h4">Deborah Adrião Cavalcanti Silva</h2>
+                <p>Estudante de Sistemas de Informação e entusiasta em Inteligência Artificial. Apaixonada por unir programação web (Front-End) e estratégias de marketing para criar experiências digitais completas e conectadas com o público.</p>
             </div>
+
+            <div class="col-md-6 text-center mb-4">
+                <img src="./imgs/mikhelli.jpeg" alt="Foto de Mikhelli sorrindo" class="img-fluid foto-perfil">
+                <h2 class="mt-3 h4">Raiany Mikhelli da Silva</h2>
+                <p>Desenvolvedora de Software entusiasta em Java e Estruturas de Dados. Apaixonada por unir o rigor técnico da programação com a visão estratégica de Gestão de Projetos.</p>
+            </div>
+            
         </section>
     </main>
-    <footer>
+
+    <footer class="text-center py-4 border-top">
         <p>Desenvolvido por Deborah e Mikhelli © 2026</p>
     </footer>
 </body>

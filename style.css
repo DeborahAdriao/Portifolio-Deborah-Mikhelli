@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --cor-lilas: #D8A5C4;
+    --cor-bege: #FFF4E6;
+    --cor-rosa: #C85099;
+    --cor-texto: #6F2153;
+}
+
+body {
+    background-color: var(--cor-bege);
+    color: var(--cor-texto);
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1, h3 {
+    font-family: 'Playfair Display';
+    color: var(--cor-rosa);
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    color: var(--cor-lilas);
+}
+
+header h2 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 3rem;
+}
+
+.foto-perfil {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Corta a foto sem achatar o rosto */
+    border-radius: 20px; /* Deixa os cantos arredondados, combinando com as cores pastéis */
+    border: 2px solid #C85099;
+}
+
+.btn-personalizado {
+    background-color: var(--cor-lilas); /* Fundo do botão */
+    color: var(--cor-texto); /* Cor da letra e do ícone */
+    border: 2px solid var(--cor-lilas); /* Borda da mesma cor do fundo */
+    border-radius: 30px; /* Deixa as pontas bem arredondadas */
+    padding: 10px 25px; /* Deixa o botão mais "gordinho" e elegante */
+    font-weight: 600; /* Deixa a letra um pouco mais forte */
+    
+    /* Isso faz a mudança de cor ser suave (uma animação) em vez de seca */
+    transition: all 0.3s ease; 
+}
+
+/* O efeito quando o mouse passa por cima (Hover) */
+.btn-personalizado:hover {
+    background-color: var(--cor-rosa); /* Muda o fundo para rosa! */
+    border-color: var(--cor-rosa); /* Muda a borda para rosa também */
+    color: var(--cor-texto);
+    transform: scale(1.05); /* Dá uma leve "crescidinha" no botão (opcional, mas fica lindo!) */
+}
