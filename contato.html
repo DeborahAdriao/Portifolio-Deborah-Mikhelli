@@ -23,14 +23,17 @@
     </header>
 
     <!--amg, tava faltando a formatação aí essa parte tava grudad bna borda -->
+   <!--coloquei os id que estavam faltando para validar o js-->
     <main class="container my-5">
-        <h1>Contato</h1>
-    <form>
-        <input type="text" placeholder="Nome"><br><br>
-        <input type="email" placeholder="Email"><br><br>
-        <textarea placeholder="Mensagem"></textarea><br><br>
+    <h1>Contato</h1>
+
+    <form onsubmit="return validarFormulario()">
+        <input type="text" id="nome" placeholder="Nome"><br><br>
+        <input type="email" id="email" placeholder="Email"><br><br>
+        <textarea id="mensagem" placeholder="Mensagem"></textarea><br><br>
         <button type="submit">Enviar</button>
     </form>
+
 </main>
 
     <footer class="text-center py-4 border-top">
