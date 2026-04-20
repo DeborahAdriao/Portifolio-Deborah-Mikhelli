@@ -56,6 +56,10 @@ header h2 {
     transform: scale(1.05); /* Dá uma leve "crescidinha" no botão (opcional, mas fica lindo!) */
 }
 
+.habilidades ul {
+    list-style: none;
+    padding: 0;
+}
 
 .habilidades ul li {
     background: var(--cor-bege);
