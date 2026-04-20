@@ -55,3 +55,12 @@ header h2 {
     color: var(--cor-texto);
     transform: scale(1.05); /* Dá uma leve "crescidinha" no botão (opcional, mas fica lindo!) */
 }
+
+
+.habilidades ul li {
+    background: var(--cor-bege);
+    border-left: 5px solid var(--cor-rosa);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
