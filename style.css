@@ -31,6 +31,7 @@ header h2 {
 .foto-perfil {
     width: 100%;
     height: auto;
+    max-width: 600px;
     object-fit: cover; /* Corta a foto sem achatar o rosto */
     border-radius: 20px; /* Deixa os cantos arredondados, combinando com as cores pastéis */
     border: 2px solid #C85099;
