@@ -3,7 +3,7 @@
 Este é o repositório do projeto prático de desenvolvimento web para a disciplina de Programação 4 da Universidade de Pernambuco (UPE), 
 sob a orientação do Prof. Denini Gabriel.
 
-# -> Sobre o Projeto
+## -> Sobre o Projeto
 O objetivo deste projeto foi aplicar os conhecimentos de desenvolvimento web front-end na criação de um portfólio pessoal interativo e responsivo. 
 O site possui 5 páginas interligadas que apresentam nossas habilidades, objetivos profissionais, formações e um formulário de contato funcional.
 
