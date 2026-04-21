@@ -32,8 +32,8 @@ header h2 {
     width: 100%;
     height: auto;
     max-width: 600px;
-    object-fit: cover; /* Corta a foto sem achatar o rosto */
-    border-radius: 20px; /* Deixa os cantos arredondados, combinando com as cores pastéis */
+    object-fit: cover; 
+    border-radius: 20px; 
     border: 2px solid #C85099;
 }
 
@@ -43,23 +43,23 @@ header h2 {
 }
 
 .btn-personalizado {
-    background-color: var(--cor-lilas); /* Fundo do botão */
-    color: var(--cor-texto); /* Cor da letra e do ícone */
-    border: 2px solid var(--cor-lilas); /* Borda da mesma cor do fundo */
-    border-radius: 30px; /* Deixa as pontas bem arredondadas */
-    padding: 10px 25px; /* Deixa o botão mais "gordinho" e elegante */
-    font-weight: 600; /* Deixa a letra um pouco mais forte */
+    background-color: var(--cor-lilas); 
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-lilas); 
+    border-radius: 30px;
+    padding: 10px 25px; 
+    font-weight: 600; 
     
-    /* Isso faz a mudança de cor ser suave (uma animação) em vez de seca */
+    
     transition: all 0.3s ease; 
 }
 
-/* O efeito quando o mouse passa por cima (Hover) */
+
 .btn-personalizado:hover {
-    background-color: var(--cor-rosa); /* Muda o fundo para rosa! */
-    border-color: var(--cor-rosa); /* Muda a borda para rosa também */
+    background-color: var(--cor-rosa); 
+    border-color: var(--cor-rosa); 
     color: var(--cor-texto);
-    transform: scale(1.05); /* Dá uma leve "crescidinha" no botão (opcional, mas fica lindo!) */
+    transform: scale(1.05); 
 }
 
 .habilidades ul {

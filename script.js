@@ -1,4 +1,4 @@
-// para validar o form de contato
+
 function validarFormulario() {
     let nome = document.getElementById("nome").value;
     let email = document.getElementById("email").value;
@@ -15,7 +15,7 @@ function validarFormulario() {
 function toggleMenu() {
     document.getElementById("menu").classList.toggle("active");
 }
-//botão de modo escuro
+
 function acionarInterruptor() {
     document.body.classList.toggle("modo-dark");
 }
