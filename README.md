@@ -22,4 +22,5 @@ Para visualizar este projeto no seu computador, siga os passos abaixo:
 
 1. Faça o download deste repositório em formato ZIP ou clone-o usando o Git:
    ```bash
-   git clone [https://github.com/SEU-USUARIO/portfolio-deborah-mikhelli.git](https://github.com/SEU-USUARIO/portfolio-deborah-mikhelli.git)
+   git clone [https://github.com/DeborahAdriao/Portifolio-Deborah-Mikhelli.git](https://github.com/DeborahAdriao/Portifolio-Deborah-Mikhelli.git)
+   cd Portifolio-Deborah-Mikhelli
